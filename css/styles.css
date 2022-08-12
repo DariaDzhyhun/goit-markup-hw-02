@@ -10,7 +10,8 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    background-color: var(--white-color);
 }
 .head{
     background-color: var(--white-color)
@@ -67,7 +68,32 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
 }
-
+.team{
+    background-color: var(--second-body-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+}
+.profession{
+    font-weight: 400;
+}
+.title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: 1,16;
+    letter-spacing: 0.03em;
+}
+.titles{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 .footer{
     background-color: var(--second-background-color);
     color: var(--white-color);
