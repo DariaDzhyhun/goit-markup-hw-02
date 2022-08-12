@@ -6,35 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
-    <header>
-        <a href="" class="link">WebStudio</a>
-        <nav>
-            <ul>
-                <li> <a href=""> Студія </a> </li>
-                <li> <a href=""> Портфоліо </a></li>
-                <li> <a href=""> Контакти</a></li>
+    <header class="head">
+        <a href="./index.html" class="link-logo link"> <span class="logo">Web</span>Studio</a>
+        <nav class="nav">
+            <ul class="list-style">
+                <li> <a href="" class="link"> Студія </a> </li>
+                <li> <a href="./portfolio.html" class="link"> Портфоліо </a></li>
+                <li> <a href="" class="link"> Контакти</a></li>
             </ul>
         </nav>
-        <ul>
-            <li><a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+        <ul class="list-style">
+            <li><a href="mailto:info@devstudio.com" class="mailto link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="tel link">+38 096 111 11 11</a></li>
         </ul>
 
     </header>
     <main>
         <!--blok-hero -->
-        <section>
+        <section class="hero">
             <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button class="button"> Замовити послугу</button>
+            <button class="button" type="button"> Замовити послугу</button>
         </section>
         <!--section1-->
         <section>
             <h2> Наші особливості</h2>
-            <ul>
+            <ul class="list-style">
                 <li>
                     <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -56,7 +62,7 @@
         <!--section2-->
         <section>
             <h2>Чим ми займаємося</h2>
-            <ul>
+            <ul class="list-style">
                 <li><img src="./images/img-1.jpg" alt="зображеня-1" width="370" height="294"></li>
                 <li><img src="./images/img-2.jpg" alt="зображеня-2" width="370" height="294"></li>
                 <li><img src="./images/img-3.jpg" alt="зображеня-3" width="370" height="294"></li>
@@ -65,7 +71,7 @@
         <!--section3-->
         <section>
             <h2>Наша команда</h2>
-            <ul>
+            <ul class="list-style">
                 <li>
                     <img src="./images/igor.jpg" alt="igor" width="270" height="260">
                     <h3>Ігор Дем'яненко</h3>
@@ -89,14 +95,14 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="" class="link">WebStudio</a>
-        <address>
-            <ul>
+    <footer class="footer">
+        <a href="" class="footer-link link"> <span class="logo"> Web</span>Studio</a>
+        <address  class="address">
+            <ul class="list-style">
                 <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank"
-                        rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com" class="mailto">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+                        rel="noopener noreferrer nofollow" class="link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@devstudio.com" class="mailto-link link" >info@devstudio.com</a></li>
+                <li><a href="tel:+380961111111" class="tel-link link">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
