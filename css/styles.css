@@ -94,8 +94,10 @@ body{
     font-size: 14px;
     line-height: 1.17;
 }
-.titles-team{
+.team{
     background-color: var(--second-body-color);
+}
+.titles-team{
     color:var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
